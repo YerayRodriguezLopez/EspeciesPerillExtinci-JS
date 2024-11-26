@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -19,6 +19,7 @@ body {
     background-color: #333;
     color: #fff;
     padding: 10px;
+    position: sticky top;
 }
 
 .cabezera h1 {
@@ -49,9 +50,9 @@ body {
     grid-column: 1 / -1; /* Toma todo el ancho */
 }
 
-#listaAnimales {
+.listaAnimales {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 15px;
     padding: 20px;
     background-color: #dddddd;
@@ -74,6 +75,7 @@ body {
 
 a:hover {
     text-decoration: underline;
+    color: blue;
 }
 
 .animals h3, .animals h4, .animals h5 {

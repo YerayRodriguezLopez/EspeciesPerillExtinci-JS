@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Llistat</title>
-    <link rel="stylesheet" href="CSS/especies.css">
+    <link rel="stylesheet" href="../CSS/especies.css">
+    <script src="../JavaScript/Scripts.js" type="module"></script>
 </head>
 <body>
 <div class="cabezera">
     <h1>EPEPC</h1>
     <ul class="menu">
-        <li><a href="../index.html">Inci</a></li>
+        <li><a href="../index.html">Inici</a></li>
         <li><a href="list.html">Llistat</a></li>
         <li><a href="contact.html">Contacta</a></li>
     </ul>
@@ -23,7 +24,7 @@
         </div>
         <div>
             <label for="mail">El teu correu electrònic:</label>
-            <input type="email" id="mail" name="mail">
+            <input type="text" id="mail" name="mail">
         </div>
         <div>
             <label for="title">Títol:</label>
@@ -31,25 +32,25 @@
         </div>
         <div>
             <label for="message">Missatge:</label>
-            <textarea id="message" name="message"></textarea>
+            <input id="text" name="message"></input>
         </div>
         <div>
-            <button type="submit">Enviar Missatge</button>
+            <input type="submit" value="Enviar Missatge"></input>
         </div>
     </form>
 </div>
-<div>
-    <h2>Llicència</h2>
-    <p>Pàgina web creada per Yeray Rodríguez</p>
-    <p>Llicència <a href="caretta_caretta.html">Creative Commons Reconeixement-NoComercial-CompartirIgual 3.0</a></p>
-    <img src="img/license.png">
-</div>
-<div>
-    <h2>Sequeix-nos</h2>
-    <ul>
-        <li><a href="caretta_caretta.html">Mastodon</a></li>
-        <li><a href="caretta_caretta.html">Diaspora</a></li>
-    </ul>
-</div>
+<footer>
+    <div>
+        <h2>Llicència</h2>
+        <p>Pàgina web creada per Yeray Rodríguez</p>
+        <p>Llicència <a href="caretta_caretta.html">Creative Commons Reconeixement-NoComercial-CompartirIgual 3.0</a></p>
+        <img src="img/license.png">
+    </div>
+    <div>
+        <h2>Sequeix-nos</h2>
+            <p href="caretta_caretta.html">Mastodon</p>
+            <p href="caretta_caretta.html">Diaspora</p>
+    </div>
+</footer>
 </body>
 </html>
